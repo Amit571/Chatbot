@@ -1,0 +1,7 @@
+python 3.7.0
+pip install chatterbot==1.0.4
+pip install chatterbot-corpus
+pip install pytz
+pip install flask_sqlalchemy==2.3.0
+pip install sqlalchemy==1.2.19
+gunicorn
