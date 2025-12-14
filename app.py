@@ -19,4 +19,7 @@ def get_bot_response():
     return str(ait_bot.get_response(userText))
 
 if __name__ == "__main__":
-    app.run(debug=True)  # Fix boolean value
+    app.run()  # Fix boolean value
+
+# if __name__ == "__main__":
+#     app.run(debug=True)  # Fix boolean value
