@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="\static\style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <style>
+    .error {
+      color: red;
+      background-color: #acf;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="cnte" class="wrapper">
+    <div class="title">
+      <p class="tital-name"><b>AITRC i-Support.</b></p>
+      <div>
+        <img id="imgb" src="\static\user-icon.jpg" alt="">
+      </div>
+    </div>
+    <div id="scrolwin" class="box">
+      <div id="chatbox">
+        <div>
+          <!-- <div class="sign">
+            <div class="orty">
+              <p id="ty58u"><span>Enter Your Details !</span></p><br>
+            </div>
+            <form name="contactForm" id="form">
+              <p class="uiy">Your Name</p><input class="singtext" type="text" id="name" name="name">
+              <br><br>
+              <p class="uiy">Mobile No</p><input class="singtext" type="mobile" id="mobail" name="mobile">
+              <br><br>
+              <p class="uiy">Email Id</p><input class="singtext" type="email" id="email" name="email">
+              <br><br>
+              <input type="submit" class="submitbtn" id="subbtn" value="Done" onclick="sing_hide_Function()">
+            </form>
+          </div> -->
+
+          <div id="block">
+            <p class="botText textdesing about-time" ><span>Hello, I am AITRC I-Support. Your
+                virtual admission counselor ! How can I help you today?</span></p>
+            <p class="botText textdesing video-text-time" ><span>If you can save a few seconds of
+                your time and watch this video you will know all the details about our institute.</span></p>
+            <div class="video">
+              <iframe width="300" height="150" src="https://www.youtube-nocookie.com/embed/1iyQ1O4rEp4?si=6p-FOGK_WyNyp1OF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+            <div class="tab-time">
+              <p class="botText textdesing"><span>Are looking for:</span></p>
+              <div id="chat1">
+                <a href="#addbox"><button class="button-24" id="addmibtn" role="button">Admission</button></a>
+                <a href="#inqboxid"><button class="button-24 srf" id="inqbtn" role="button">Inquiry</button></a>
+                <a href="#about-show"><button class="button-24 srf" id="about-btn" role="button">About</button></a>
+              </div>
+            </div>
+          </div>
+
+          <div id="about-show" style="display: none;">
+            <div>
+              <p class="about-user"><span>About</span></p>
+              <div>
+                <p class="about-bot"><span>We offer the world's best education in our institute. Education for Everyone.
+                    The key to success is to appreciate how people learn, understand the thought process that goes into
+                    instructional design.
+                    Adarsh Institute of Technology and Research Centre Vita, is a state of the art technical institute
+                    spread across 15 acres of space in the picturesque and serene land of prospering Vita,
+                    Sangli.</span></p>
+              </div>
+            </div>
+          </div>
+
+          <div id="addmi-show" style="display: none;">
+            <p class="addmi-user"><span>Admission</span></p>
+          </div>
+          <div id="addbox">
+            <div class="selectaddmi">
+              <P id="drt">Do you look this :</P>
+              <a href="#UG-Box"><button class="addmibtn" id="ugselect">B.Tech</button></a>
+              <a href="#Polybox"><button class="addmibtn" id="pgselect">Polytechnics</button></a>
+              <button class="addmibtn" id="addmiback">Go Back</button>
+            </div>
+          </div>
+
+
+          <div>
+            <p class="iop-1df" style="display: none;"><span>B.Tech</span></p>
+          </div>
+          <div id="UG-Box">
+            <div class="UG-select">
+              <P class="udrt">Which branch do you look's :</P>
+              <a href="#bt-civ-select"><button class="UGbtn1" id="ug-civ">Civil Engineering</button></a>
+              <a href="#com-con"><button class="UGbtn1" id="ug-com">Computer Science and Engineering</button></a>
+              <a href="#comi-con"><button class="UGbtn1" id="ug-comi">Electronics and Telecommunication</button></a>
+              <a href="#mba-con"><button class="UGbtn1" id="ug-mba">Mechanical Engineering</button></a>
+              <a href="#bt-gs-text"><button class="UGbtn1" id="ug-pgd-btn">General Science</button></a>
+              <button class="UGbtn1" id="Ug-back">Go Back</button>
+            </div>
+          </div>
+
+          <div id="bt-civ-select" style="display: none;">
+            <div>
+              <p id="civ-select"><span>Civil Engineering</span></p>
+            </div>
+            <div>
+              <p class="bt-civ-text"><span>Civil engineering is the oldest of the main disciplines of engineering. Civil
+                  engineering, the mother branch, has kept pace with the rapid growth in the field of technology. It is
+                  that branch of engineering which provides basic amenities required for the survival and maintenance of
+                  the environment. These civil engineers built all types of structures, design water-supply, sewer
+                  systems, railroads, highways and plan cities. <a
+                    href="https://www.aitrcvita.edu.in/btech_civil.php">Read More</a></span></p>
+            </div>
+          </div>
+
+          <div id="bt-cm-select" style="display: none;">
+            <div>
+              <p id="com-select"><span>Computer Science and Engineering</span></p>
+            </div>
+            <div>
+              <p id="com-con"><span>The CSE department was established in the year 2009.In these one decade, the
+                  department offers B.Tech Program in Computer Science & Engineering. The Department of CSE aims to
+                  expertise in computation through strong knowledge of algorithms, data structures, and coding skills in
+                  programming languages like Python, C, Java and open source technologies, Data centric and secure
+                  application development, Artificial Intelligence, cloud and big data technologies.<a id="com-link"
+                    href="https://www.aitrcvita.edu.in/btech_cse.php">Read More</a></span></p>
+            </div>
+          </div>
+
+          <div id="bt-et-select" style="display: none;">
+            <div>
+              <p id="comi-select"><span>Electronics and Telecommunication</span></p>
+            </div>
+            <div>
+              <p id="comi-con"><span>The Department of Electronics & Telecommunication Engineering is established in the
+                  year 2008. Department's commitment is to provide quality education in Electronics & Telecommunication
+                  field. It has a team of young and experienced faculties. The department has sophisticated, dedicated,
+                  well equipped laboratories like with modern facilities and softwares like Petrous, MATLAB, to fulfill
+                  the needs of students. It is also planning to organize technical paper prenstation contests, project
+                  exhibitions for students and short term training programs, workshops, faculty development programs for
+                  engineering faculties to update their technical knowledge.<a
+                    href="https://www.aitrcvita.edu.in/btech_e&tc.php">Read More</a></span></p>
+            </div>
+          </div>
+
+          <div id="bt-me-select" style="display: none;">
+            <div>
+              <p id="mba1-select"><span>Mechanical Engineering</span></p>
+            </div>
+            <div>
+              <p id="mba-con"><span>The college started in 2008 with three departments and Mechanical Department was one
+                  of them. In 2008 intake capacity was 60. In 2009 intake capacity was increased 120. Again in 2011
+                  intake capacity were increased 60 intake for direct second year. From its inception, Mechanical
+                  Department is reputed for its knowledgeable, hardworking and caring faculty members as well as
+                  enthusiastic, intelligent and disciplined students. Mechanical Department is well known for presenting
+                  consistently good academic results and excelling in co-curricular as well as extra-curricular
+                  activities.<a href="https://www.aitrcvita.edu.in/btech_mech.php">Read More</a></span></p>
+            </div>
+          </div>
+
+          <div id="bt-gs-select" style="display: none;">
+            <div>
+              <p id="pgd-ug-name-text"><span>General Science</span></p>
+            </div>
+            <div>
+              <p id="bt-gs-text"><span>It gives me great pleasure to welcome you to the Department of Computer and
+                  information Technology. Computer and Information Technology Department was started in the year 2008
+                  with an intake capacity of 60 seats. It is one of the best equipped Departments in terms of
+                  infrastructure and well qualified faculty which form the main assets.<a
+                    href="https://www.aitrcvita.edu.in/diploma_gsc.php">Read More</a></span></p>
+            </div>
+          </div>
+
+          <div id="Polybox" style="display: none;">
+            <div>
+              <p class="uioj"><span>Polytechnics</span></p>
+            </div>
+            <div id="pg-box">
+              <div id="pg-select">
+                <p class="udrt">Which branch do you look's :</p></a>
+                <a href="#pt-civ-cont"><button class="UGbtn1" id="pg-civ-btn">Civil Engineering</button></a>
+                <a href="#pt-cm-select"><button class="UGbtn1" id="pg-com-btn">Computer Science and
+                    Engineering</button></a>
+                <a href="#pt-et-select"><button class="UGbtn1" id="pg-comi-btn">Electronics and
+                    Telecommunication</button></a>
+                <a href="#pt-me-select"><button class="UGbtn1" id="pg-mba-btn">Mechanical Engineering</button></a>
+                <a href="#pt-gs-text"><button class="UGbtn1" id="pt-pgd-btn">General Science</button></a>
+                <button class="UGbtn1" id="pg-back">Go Back</button>
+              </div>
+            </div>
+          </div>
+
+          <div id="pt-civ-cont" style="display: none;">
+            <div>
+              <p id="pt-civ-select"><span>Civil Engineering</span></p>
+            </div>
+            <div>
+              <p class="pt-civ-text"><span>Civil engineering is the oldest of the main disciplines of engineering. Civil
+                  engineering, the mother branch, has kept pace with the rapid growth in the field of technology. It is
+                  that branch of engineering which provides basic amenities required for the survival and maintenance of
+                  the environment. These civil engineers built all types of structures, design water-supply, sewer
+                  systems, railroads, highways and plan cities. <a
+                    href="https://www.aitrcvita.edu.in/diploma_ce.php">Read More</a></span></p>
+            </div>
+          </div>
+
+          <div id="pt-cm-select" style="display: none;">
+            <div>
+              <p id="pt-com-select"><span>Computer Science and Engineering</span></p>
+            </div>
+            <div>
+              <p id="pt-com-con"><span>The CSE department was established in the year 2009.In these one decade, the
+                  department offers B.Tech Program in Computer Science & Engineering. The Department of CSE aims to
+                  expertise in computation through strong knowledge of algorithms, data structures, and coding skills in
+                  programming languages like Python, C, Java and open source technologies, Data centric and secure
+                  application development, Artificial Intelligence, cloud and big data technologies.<a id="com-link"
+                    href="https://www.aitrcvita.edu.in/diploma_cm.php">Read More</a></span></p>
+            </div>
+          </div>
+
+
+          <div id="pt-et-select" style="display: none;">
+            <div>
+              <p id="pt-comi-select"><span>Electronics and Telecommunication</span></p>
+            </div>
+            <div>
+              <p id="pt-comi-con"><span>The Department of Electronics & Telecommunication Engineering is established in
+                  the year 2008. Department's commitment is to provide quality education in Electronics &
+                  Telecommunication field. It has a team of young and experienced faculties. The department has
+                  sophisticated, dedicated, well equipped laboratories like with modern facilities and softwares like
+                  Petrous, MATLAB, to fulfill the needs of students. It is also planning to organize technical paper
+                  prenstation contests, project exhibitions for students and short term training programs, workshops,
+                  faculty development programs for engineering faculties to update their technical knowledge.<a
+                    href="https://www.aitrcvita.edu.in/diploma_ej.php">Read More</a></span></p>
+            </div>
+          </div>
+
+          <div id="pt-me-select" style="display: none;">
+            <div>
+              <p id="pt-mba1-select"><span>Mechanical Engineering</span></p>
+            </div>
+            <div>
+              <p id="pt-mba-con"><span>The college started in 2008 with three departments and Mechanical Department was
+                  one of them. In 2008 intake capacity was 60. In 2009 intake capacity was increased 120. Again in 2011
+                  intake capacity were increased 60 intake for direct second year. From its inception, Mechanical
+                  Department is reputed for its knowledgeable, hardworking and caring faculty members as well as
+                  enthusiastic, intelligent and disciplined students. Mechanical Department is well known for presenting
+                  consistently good academic results and excelling in co-curricular as well as extra-curricular
+                  activities.<a href="https://www.aitrcvita.edu.in/diploma_me.php">Read More</a></span></p>
+            </div>
+          </div>
+
+          <div id="pt-gs-select" style="display: none;">
+            <div>
+              <p id="pt-ug-name-text"><span>General Science</span></p>
+            </div>
+            <div>
+              <p id="pt-gs-text"><span>It gives me great pleasure to welcome you to the Department of Computer and
+                  information Technology. Computer and Information Technology Department was started in the year 2008
+                  with an intake capacity of 60 seats. It is one of the best equipped Departments in terms of
+                  infrastructure and well qualified faculty which form the main assets.<a
+                    href="https://www.aitrcvita.edu.in/diploma_gsc.php">Read More</a></span></p>
+            </div>
+          </div>
+
+          <!-- <div id="amd-civ-span">
+<p><span>Civil Engineering</span></p>
+</div>
+<div id="amd-civ-con">
+<p><a id="amd-civ-link" href="">Click</a> To Konw About Civil Engineering.</p>
+</div>
+
+<div id="amd-atuo-span">
+<p><span>Automobile Engineering</span></p>
+</div>
+<div id="amd-atuo-con">
+<p><a id="amd-atuo-link" href="">Click</a> To Konw About Automobile Engineering.</p>
+</div>
+
+<div id="amd-com-span">
+<p><span>Computer Engineering</span></p>
+</div>
+<div id="amd-com-con">
+<p><a id="amd-com-link" href="">Click</a> To Konw About Computer Engineering.</p>
+</div>
+
+<div id="amd-comh-span">
+<p><span>Computer Hardware and Maintenance</span></p>
+</div>
+<div id="amd-comh-con">
+<p><a id="amd-comh-link" href="">Click</a> To Konw About Computer Hardware and Maintenance.</p>
+</div>
+
+<div id="amd-ee-span">
+<p><span>Electrical Engineering</span></p>
+</div>
+<div id="amd-ee-con">
+<p><a id="amd-ee-link" href="">Click</a> To Konw About Electrical Engineering.</p>
+</div>
+
+<div id="amd-me-span">
+<p><span>Mechanical Engineering</span></p>
+</div>
+<div id="amd-me-con">
+<p><a id="amd-me-link" href="">Click</a> To Konw About Mechanical Engineering.</p>
+</div>
+    
+
+<div class="doi134">
+<p><span>MBA</span></p>
+</div>  
+<div id="mba-box">
+<div id="mba-select">
+    <p class="tyop13">Which course are you looking for :</p>
+    <a href="#mba-bs-con"><button class="UGbtn1" id="mba-bs-btn">Master of Business Administration</button></a>
+    <button class="UGbtn1" id="mba-back">Go Back</button>
+</div>
+</div>
+
+<div id="mba-bs-span">
+<p><span>Master of Business Administration</span></p>
+</div>
+<div id="mba-bs-con">
+<p><a id="mba-bs-link" href="">Click</a> To Konw About MBA.</p>
+</div>
+
+<div id="mba-ba-span">
+<p><span>Master of Business Administration</span></p>
+</div>
+
+<div class="hio54">
+<p><span>PG Diploma</span></p>
+</div>  
+<div id="pgd-box">
+<div id="pgd-select">
+    <p class="fiom09">Which course are you looking for :</p>
+    <button class="UGbtn1" id="pgd-tp">Post Graduate Diploma In Electrical and Autonomous Vehicles(PGD-EAV)</button>
+    <button class="UGbtn1" id="pgd-back">Go Back</button>
+</div>
+</div>
+
+<div id="pg-civ-span">
+<p><span>Civil Engineering</span></p>
+</div>
+<div id="pg-civ-con">
+<p><a id="pg-civ-link" href="">Click</a> To Konw About Civil Engineering.</p>
+</div>
+
+<div id="pg-com-span">
+<p><span>Computer Engineering</span></p>
+</div>
+<div id="pg-com-con">
+<p><a id="pg-com-link" href="">Click</a> To Konw About Computer.</p>
+</div>
+
+<div id="pg-comi-span">
+<p><span>Computer Engineering and IT</span></p>
+</div>
+<div id="pg-comi-con">
+<p><a id="pg-comi-link" href="">Click</a> To Konw About Computer and IT.</p>
+</div>
+
+<div id="pg-mba-span">
+<p><span>MBA</span></p>
+</div>
+<div id="pg-mba-con">
+<p><a id="pg-mba-link" href="">Click</a> To Konw About MBA.</p>
+</div> -->
+
+          <div id="inqbox-user" style="display: none;">
+            <p class="about-user"><span>Inquiry</span></p>
+          </div>
+          <div class="inqbox" id="inqboxid" style="display: hide;">
+            <div class="selectinqopt">
+              <a href="#inq-rar-con"><button class="inqselectbtn" id="inq-rar-btn">Rules & Regulations</button></a>
+              <a href="#inq-mac-con"><button class="inqselectbtn" id="inq-mac-btn">Minor & Honor
+                  Certification</button></a>
+              <a href="#inq-cbc-con"><button class="inqselectbtn" id="inq-cbc-btn">Choice Based credit
+                  System</button></a>
+              <a href="#inq-pls-con"><button class="inqselectbtn" id="inq-pls-btn">Placements</button></a>
+              <a href="#inq-phd-con"><button class="inqselectbtn" id="inq-phd-btn">Ph.D</button></a>
+              <button class="inqselectbtn" id="inqback">Go Back</button>
+            </div>
+          </div>
+
+          <div id="inq-rar-span">
+            <p><span>Rules & Regulations</span></p>
+          </div>
+          <div id="inq-rar-con">
+            <p><a id="inq-rar-link" href="">Click</a> To Konw About Rules & Regulations.</p>
+          </div>
+
+          <div id="inq-mac-span">
+            <p><span>Minor & Honor Certification</span></p>
+          </div>
+          <div id="inq-mac-con">
+            <p><a id="inq-mac-link" href="">Click</a> To Konw About Minor & Honor Certification.</p>
+          </div>
+
+          <div id="inq-cbc-span">
+            <p><span>Choice Based credit System</span></p>
+          </div>
+          <div id="inq-cbc-con">
+            <p><a id="inq-cbc-link" href="">Click</a> To Konw About Choice Based credit System.</p>
+          </div>
+
+          <div id="inq-pls-span">
+            <p><span>Placements</span></p>
+          </div>
+          <div id="inq-pls-con">
+            <p><a id="inq-pls-link" href="">Click</a> To Konw About Placements.</p>
+          </div>
+
+          <div id="inq-phd-span">
+            <p><span>Ph.D</span></p>
+          </div>
+          <div id="inq-phd-con">
+            <p><a id="inq-phd-link" href="">Click</a> To Konw About Ph.D.</p>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <div class="typing-area">
+      <div id="userInput">
+        <input id="textInput" type="text" name="msg" placeholder="Enter your Message">
+        <button id="submitInput" class="scroll">Send</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="chatbox__button">
+    <button id="btn" class="loc"><img src="\static\cht.png" height="60"></button>
+  </div>
+  <script src="/static/script.js"></script>
+  <!-- <script src="\static\Validation.js"></script> -->
+  <!-- <script src="\static\jquery.validate.js"></script>
+<script src="\static\additional-methods.js"></script> -->
+  <script>
+    //     .error {
+    //       color: red;
+    //       background-color: #acf;
+    //    }
+    // Added in Header File
+
+    // just for the demos, avoids form submit
+
+
+
+
+    // $( "#form" ).validate({
+    //   rules: {
+    //     name: {
+    //       required: true,
+
+    //     },
+    //     mobile: {
+    //         required: true,
+    //         digits: true
+
+    //     },
+    //     email: {
+    //       required: true,
+
+    //     },
+
+    //   },
+    //   messages : {
+    //     name: {
+    //       required: "This field  required"
+    //     },
+    //     mobile: {
+    //       required: "This field is required"
+
+    //     },
+    //     email: {
+    //       required: "This field is required"
+
+    //     },
+
+
+    //   }
+
+
+    // }); 
+
+  //   var name = document.getElementById('name');
+  //   var mobile = document.getElementById('mobail');
+  //   var email = document.getElementById('email');
+
+
+  //   $('#subbtn').click(function () {
+  //     $('.sign').hide()
+  //     $('#block').show()
+  //     $('#textInput').removeAttr('disabled');
+
+  //     setTimeout(function () {
+  //       $('.about-time').show()
+  //     }, 1000);
+
+  //     setTimeout(function () {
+  //       $('.video-text-time').show()
+  //     }, 1500);
+
+  //     setTimeout(function () {
+  //       $('.video').show()
+  //     }, 2000);
+
+  //     setTimeout(function () {
+  //       $('.tab-time').show()
+  //       $('.box').scrollTop(1000000);
+  //     }, 2500);
+  //   })
+  // </script>
+
+</body>
+
+</html>

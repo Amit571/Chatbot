@@ -1,0 +1,308 @@
+[
+  {
+    "questions": [
+      "hello",
+      "hi",
+      "hey",
+      "good morning",
+      "good afternoon",
+      "good evening",
+      "hi there"
+    ],
+    "answer": "Hello! Welcome to ABC College inquiry bot. How can I assist you today?"
+  },
+  {
+    "questions": [
+      "what is your name",
+      "who are you",
+      "your name",
+      "bot name"
+    ],
+    "answer": "I am ABC College's official inquiry assistant. You can call me ABC Bot."
+  },
+  {
+    "questions": [
+      "what is abc college",
+      "tell me about abc college",
+      "about abc college",
+      "college introduction"
+    ],
+    "answer": "ABC College is a premier institution offering undergraduate, postgraduate, and diploma courses in Engineering, Commerce, Science, and Arts. Established in 2005, we are NAAC accredited with an 'A' grade."
+  },
+  {
+    "questions": [
+      "courses offered",
+      "which courses are available",
+      "list of courses",
+      "programs offered",
+      "what can I study"
+    ],
+    "answer": "ABC College offers B.Tech (CSE, ECE, ME, Civil), B.Com, B.Sc (CS, Maths, Physics), BBA, BA (English, Economics), M.Tech, M.Com, M.Sc, and diploma courses. Please specify your interest for more details."
+  },
+  {
+    "questions": [
+      "btech courses",
+      "b tech",
+      "bachelor of technology",
+      "engineering courses"
+    ],
+    "answer": "We offer B.Tech in Computer Science (CSE), Electronics & Communication (ECE), Mechanical (ME), and Civil Engineering. Duration: 4 years. Intake: 60 students per branch."
+  },
+  {
+    "questions": [
+      "bcom course",
+      "b.com",
+      "bachelor of commerce"
+    ],
+    "answer": "B.Com is a 3-year program specialising in Accountancy, Finance, and Taxation. We also offer B.Com (Honours) with added subjects like Corporate Law and Auditing."
+  },
+  {
+    "questions": [
+      "bsc courses",
+      "b.sc",
+      "bachelor of science"
+    ],
+    "answer": "B.Sc available in Computer Science, Mathematics, Physics, Chemistry, and Data Science. Duration: 3 years. Good placement record in IT and research sectors."
+  },
+  {
+    "questions": [
+      "bba course",
+      "bachelor of business administration"
+    ],
+    "answer": "BBA is a 3-year management program covering Marketing, HR, Finance, and Entrepreneurship. Ideal for students aiming for MBA or corporate roles."
+  },
+  {
+    "questions": [
+      "ba courses",
+      "bachelor of arts"
+    ],
+    "answer": "BA offered in English Literature, Economics, Psychology, and Political Science. Duration: 3 years. Great for UPSC, teaching, or media careers."
+  },
+  {
+    "questions": [
+      "pg courses",
+      "postgraduate",
+      "masters courses",
+      "mtech",
+      "m.com",
+      "msc"
+    ],
+    "answer": "PG courses: M.Tech (CSE, ECE), M.Com, M.Sc (CS, Maths, Physics), and MBA. Duration: 2 years. Evening batches available for working professionals."
+  },
+  {
+    "questions": [
+      "diploma courses",
+      "diploma",
+      "polytechnic"
+    ],
+    "answer": "We offer 3-year diplomas in Computer Engineering, Mechanical, Electrical, and Civil. Lateral entry available after 10+2 (PCM)."
+  },
+  {
+    "questions": [
+      "admission process",
+      "how to get admission",
+      "admission details",
+      "apply for admission"
+    ],
+    "answer": "Admission is based on merit or entrance exam (ABC-CET for B.Tech, ABC-MAT for MBA). You can apply online on our website. Steps: Register → Fill form → Upload docs → Pay fee → Confirmation."
+  },
+  {
+    "questions": [
+      "admission eligibility",
+      "eligibility criteria",
+      "who can apply"
+    ],
+    "answer": "For UG: 10+2 with minimum 50% (45% for SC/ST). For PG: Bachelor's degree with 55%. Specific subjects required for B.Tech (PCM) and B.Sc (related science)."
+  },
+  {
+    "questions": [
+      "entrance exam",
+      "abc cet",
+      "college entrance test"
+    ],
+    "answer": "ABC-CET is our own entrance exam for B.Tech admission. Conducted in May/June. Syllabus: Physics, Chemistry, Mathematics of 12th level. Application fee: ₹800."
+  },
+  {
+    "questions": [
+      "fee structure",
+      "tuition fees",
+      "course fees",
+      "how much fees"
+    ],
+    "answer": "Fees vary by course. B.Tech: ₹1.2 lakh/year, B.Com/BBA: ₹50k/year, B.Sc: ₹60k/year, MBA: ₹1.5 lakh/year. Hostel & mess extra (approx ₹80k/year). Scholarships available for meritorious and EWS students."
+  },
+  {
+    "questions": [
+      "scholarship",
+      "financial aid",
+      "fee concession"
+    ],
+    "answer": "ABC College offers merit scholarships (up to 100% fees), EWS scholarship, and sports quota concessions. Also, government scholarships (Post-Matric, National Scholarship Portal) are applicable."
+  },
+  {
+    "questions": [
+      "college timing",
+      "college time",
+      "timing",
+      "class timings"
+    ],
+    "answer": "College timing is 10:30 AM to 5:00 PM. Monday to Friday. Practical labs and library remain open till 6:30 PM."
+  },
+  {
+    "questions": [
+      "placement record",
+      "placements",
+      "job placement",
+      "campus placement"
+    ],
+    "answer": "Average placement: 85%. Top recruiters: TCS, Infosys, Wipro, Amazon, Deloitte, Accenture. Highest package (2024): ₹28 LPA. Average package: ₹5.5 LPA."
+  },
+  {
+    "questions": [
+      "internship",
+      "internship opportunities"
+    ],
+    "answer": "Mandatory summer internship after 2nd year for UG. College helps with internships via placement cell. Stipend ranges ₹10k-₹30k/month."
+  },
+  {
+    "questions": [
+      "hostel facility",
+      "hostel",
+      "accommodation"
+    ],
+    "answer": "Separate boys and girls hostels with AC/non-AC rooms. Mess, WiFi, 24/7 water, and security included. Fee: ₹80k-₹1.2L/year. Limited seats, early booking advised."
+  },
+  {
+    "questions": [
+      "library",
+      "library facility"
+    ],
+    "answer": "Central library with 50,000+ books, 100+ journals, digital access to IEEE, Springer, and DELNET. Open 9 AM to 7 PM."
+  },
+  {
+    "questions": [
+      "canteen",
+      "food facility"
+    ],
+    "answer": "Multi-cuisine canteen with hygienic food, priced between ₹20-₹100. Also has a juice corner and coffee vending machine."
+  },
+  {
+    "questions": [
+      "transport facility",
+      "bus facility",
+      "college bus"
+    ],
+    "answer": "College buses available from major city points, railway station, and bus stand. Transport fee: ₹25k/year. Route list on website."
+  },
+  {
+    "questions": [
+      "sports",
+      "sports facility",
+      "gym"
+    ],
+    "answer": "Cricket, football, basketball courts, indoor badminton, table tennis, chess, and a fully equipped gym. Annual sports meet in December."
+  },
+  {
+    "questions": [
+      "faculty",
+      "teachers",
+      "professors"
+    ],
+    "answer": "90% faculty are PhD holders with industry experience. Student-faculty ratio is 15:1. Regular guest lectures from IITs and IIMs."
+  },
+  {
+    "questions": [
+      "exam schedule",
+      "exam dates",
+      "university exams"
+    ],
+    "answer": "Internal exams: July & December. University exams: May & November. Practical exams follow theory exams. Admit cards available on student portal."
+  },
+  {
+    "questions": [
+      "attendance policy",
+      "attendance requirement",
+      "minimum attendance"
+    ],
+    "answer": "Minimum 75% attendance mandatory to sit for university exams. 65-75% with medical certificate requires principal's permission."
+  },
+  {
+    "questions": [
+      "holidays",
+      "college holidays",
+      "vacation"
+    ],
+    "answer": "Summer break: May-June (45 days). Winter break: 15 days (Dec-Jan). National holidays and festival holidays (Diwali, Holi, Eid, Christmas). Academic calendar on website."
+  },
+  {
+    "questions": [
+      "contact number",
+      "college phone number",
+      "helpline"
+    ],
+    "answer": "Admission helpline: +91-9876543210, +91-1234567890. Office hours: 9:30 AM to 5:00 PM, Monday to Saturday."
+  },
+  {
+    "questions": [
+      "email id",
+      "college email",
+      "official email"
+    ],
+    "answer": "Admission queries: admission@abccollege.edu.in, General: info@abccollege.edu.in, Placement: placement@abccollege.edu.in."
+  },
+  {
+    "questions": [
+      "college address",
+      "where is abc college",
+      "location"
+    ],
+    "answer": "ABC College, Sector 62, Noida, Uttar Pradesh - 201301. Nearest metro: Noida Electronic City (5 mins walk). Landmark: Near Wave City Mall."
+  },
+  {
+    "questions": [
+      "website",
+      "official website"
+    ],
+    "answer": "Our official website is www.abccollege.edu.in. You can find application forms, syllabus, results, and notices there."
+  },
+  {
+    "questions": [
+      "anti ragging",
+      "ragging policy"
+    ],
+    "answer": "ABC College has zero tolerance for ragging. Anti-ragging committee and helpline: 1800-123-456. Strict action as per UGC norms."
+  },
+  {
+    "questions": [
+      "student clubs",
+      "clubs and societies"
+    ],
+    "answer": "We have Coding Club, Debate Society, Cultural Committee, Photography Club, Entrepreneurship Cell, and NSS/NCC units."
+  },
+  {
+    "questions": [
+      "annual fest",
+      "college fest",
+      "cultural fest"
+    ],
+    "answer": "Our annual fest 'Abhikalp' is held in February. Includes celebrity nights, DJ, hackathon, business quiz, and sports competitions."
+  },
+  {
+    "questions": [
+      "loan facility",
+      "education loan"
+    ],
+    "answer": "We have MoUs with SBI, PNB, and Bank of Baroda for education loans. Loan assistance desk in admin block."
+  },
+  {
+    "questions": [
+      "byebye",
+      "goodbye",
+      "thank you",
+      "thanks",
+      "bye",
+      "see you later"
+    ],
+    "answer": "You're welcome! Have a great day. Visit our website or call helpline for more help. Goodbye!"
+  }
+]
