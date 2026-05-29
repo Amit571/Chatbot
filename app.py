@@ -5,13 +5,8 @@ import json
 app = Flask(__name__)
 
 # Load chatbot dataset
-with open(
-    r"C:\Users\amits\Work\Projects\Chatbot\Test\data\JSON DATA\Data.json",
-    'r',
-    encoding='utf-8'
-) as file: 
-
-    data = json.load(file) 
+with open("data/JSON DATA/Data.json", "r", encoding="utf-8") as file:
+    data = json.load(file)
 
 @app.route("/", methods=['GET', 'POST'])
 def home():
