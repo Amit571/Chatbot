@@ -7,208 +7,307 @@
       "good morning",
       "good afternoon",
       "good evening",
-      "hi there"
+      "hola",
+      "namaste",
+      "hey bot",
+      "hi aitrc"
     ],
-    "answer": "Hello! Welcome to ABC College inquiry bot. How can I assist you today?"
+    "answer": "Hello! I am AITRC I Support, your virtual assistant for AITRC College. How can I help you today?"
   },
   {
     "questions": [
       "what is your name",
       "who are you",
-      "your name",
-      "bot name"
+      "your name bot",
+      "bot name",
+      "tell me your name"
     ],
-    "answer": "I am ABC College's official inquiry assistant. You can call me ABC Bot."
+    "answer": "I am AITRC I Support, the official inquiry and support chatbot for All India Technical Research College (AITRC)."
   },
   {
     "questions": [
-      "what is abc college",
-      "tell me about abc college",
-      "about abc college",
-      "college introduction"
+      "about aitrc",
+      "tell me about aitrc",
+      "college introduction",
+      "what is aitrc"
     ],
-    "answer": "ABC College is a premier institution offering undergraduate, postgraduate, and diploma courses in Engineering, Commerce, Science, and Arts. Established in 2005, we are NAAC accredited with an 'A' grade."
+    "answer": "AITRC (All India Technical Research College) was established in 2008. We are NAAC A++ accredited and offer 35+ courses in Engineering, Management, Pharmacy, Law, and Design. Our campus is in Knowledge Park III, Greater Noida."
+  },
+  {
+    "questions": [
+      "college address",
+      "where is aitrc located",
+      "aitrc location",
+      "campus address"
+    ],
+    "answer": "AITRC Campus, Plot No. 42, Knowledge Park III, Greater Noida, Uttar Pradesh - 201310. Nearest metro: Knowledge Park II Metro Station (2 km)."
+  },
+  {
+    "questions": [
+      "contact number",
+      "phone number",
+      "helpline number",
+      "aitrc contact"
+    ],
+    "answer": "AITRC Support Helpline: +91-8882223334, +91-9997775668. Admission Office: 0120-4567890. Available 9 AM to 6 PM, Monday to Saturday."
+  },
+  {
+    "questions": [
+      "email support",
+      "aitrc email",
+      "official email"
+    ],
+    "answer": "General queries: support@aitrc.edu.in | Admissions: admissions@aitrc.edu.in | Placements: placement@aitrc.edu.in | Grievances: grievance@aitrc.edu.in"
+  },
+  {
+    "questions": [
+      "aitrc website",
+      "official website",
+      "website link"
+    ],
+    "answer": "Our official website is www.aitrc.edu.in. You can apply online, check results, download syllabus, and pay fees there."
   },
   {
     "questions": [
       "courses offered",
-      "which courses are available",
       "list of courses",
-      "programs offered",
-      "what can I study"
+      "programs at aitrc",
+      "which courses"
     ],
-    "answer": "ABC College offers B.Tech (CSE, ECE, ME, Civil), B.Com, B.Sc (CS, Maths, Physics), BBA, BA (English, Economics), M.Tech, M.Com, M.Sc, and diploma courses. Please specify your interest for more details."
+    "answer": "AITRC offers B.Tech (8 specializations), BBA, B.Com (Hons), BCA, B.Pharm, BA LLB, B.Des, MBA, M.Tech, MCA, and PhD. Use 'courses in engineering' or 'management courses' for details."
   },
   {
     "questions": [
       "btech courses",
-      "b tech",
-      "bachelor of technology",
-      "engineering courses"
+      "b tech specializations",
+      "engineering branches"
     ],
-    "answer": "We offer B.Tech in Computer Science (CSE), Electronics & Communication (ECE), Mechanical (ME), and Civil Engineering. Duration: 4 years. Intake: 60 students per branch."
+    "answer": "B.Tech branches: CSE (AI/ML), CSE (Data Science), CSE (Cyber Security), ECE, EEE, Mechanical, Civil, and Aerospace Engineering. Duration: 4 years. Intake: 60-120 per branch."
   },
   {
     "questions": [
-      "bcom course",
-      "b.com",
-      "bachelor of commerce"
+      "btech cse",
+      "computer science engineering",
+      "cse branch"
     ],
-    "answer": "B.Com is a 3-year program specialising in Accountancy, Finance, and Taxation. We also offer B.Com (Honours) with added subjects like Corporate Law and Auditing."
+    "answer": "B.Tech CSE at AITRC has 3 specializations: AI/ML, Data Science, and Cyber Security. Labs with NVIDIA GPUs, Python, Java, and Cloud Computing. Placement record: 92%."
   },
   {
     "questions": [
-      "bsc courses",
-      "b.sc",
-      "bachelor of science"
+      "btech fees",
+      "btech fee structure",
+      "engineering fees"
     ],
-    "answer": "B.Sc available in Computer Science, Mathematics, Physics, Chemistry, and Data Science. Duration: 3 years. Good placement record in IT and research sectors."
+    "answer": "B.Tech fees: ₹1.35 lakh/year (tuition). Hostel: ₹95k/year (AC) or ₹75k/year (non-AC). One-time admission fee: ₹10k. Scholarships available for 60%+ marks."
   },
   {
     "questions": [
       "bba course",
       "bachelor of business administration"
     ],
-    "answer": "BBA is a 3-year management program covering Marketing, HR, Finance, and Entrepreneurship. Ideal for students aiming for MBA or corporate roles."
+    "answer": "BBA at AITRC: 3-year program in Marketing, Finance, HR, and International Business. Also BBA (Digital Marketing) and BBA (Business Analytics). Fees: ₹65k/year."
   },
   {
     "questions": [
-      "ba courses",
-      "bachelor of arts"
+      "bca course",
+      "bca details"
     ],
-    "answer": "BA offered in English Literature, Economics, Psychology, and Political Science. Duration: 3 years. Great for UPSC, teaching, or media careers."
+    "answer": "BCA (Bachelor of Computer Applications): 3-year program with focus on Web Dev, Python, Java, DBMS, and Cloud. Fees: ₹58k/year. Great for IT careers."
   },
   {
     "questions": [
-      "pg courses",
-      "postgraduate",
-      "masters courses",
+      "bcom course",
+      "b.com hons",
+      "bcom at aitrc"
+    ],
+    "answer": "B.Com (Hons) and B.Com (Professional) with specialization in Taxation, Audit, and Financial Analytics. Fees: ₹48k/year. Duration: 3 years."
+  },
+  {
+    "questions": [
+      "bpharm course",
+      "bachelor of pharmacy"
+    ],
+    "answer": "B.Pharm at AITRC: 4-year program. Approved by PCI. Labs with HPLC, UV Spectrophotometer. Fees: ₹1.1 lakh/year. Campus placement in Sun Pharma, Cipla."
+  },
+  {
+    "questions": [
+      "ba llb",
+      "law course",
+      "integrated law"
+    ],
+    "answer": "BA LLB (Integrated) 5-year program. Also BBA LLB. Approved by BCI. Moot court, legal aid clinic. Fees: ₹85k/year."
+  },
+  {
+    "questions": [
+      "bdes",
+      "bachelor of design",
+      "design course"
+    ],
+    "answer": "B.Des in Communication Design, Fashion Design, and UI/UX. Duration: 4 years. Fees: ₹1.2 lakh/year. Studio-based learning."
+  },
+  {
+    "questions": [
+      "mba course",
+      "masters of business administration"
+    ],
+    "answer": "MBA at AITRC: 2-year program with dual specialization in Marketing, Finance, HR, Operations, and Business Analytics. Fees: ₹1.6 lakh/year. Avg placement: ₹8.2 LPA."
+  },
+  {
+    "questions": [
       "mtech",
-      "m.com",
-      "msc"
+      "m tech courses",
+      "masters in engineering"
     ],
-    "answer": "PG courses: M.Tech (CSE, ECE), M.Com, M.Sc (CS, Maths, Physics), and MBA. Duration: 2 years. Evening batches available for working professionals."
+    "answer": "M.Tech in CSE, VLSI, Structural Engg, Thermal Engg. Duration: 2 years. Fees: ₹98k/year. GATE scholarship available."
+  },
+  {
+    "questions": [
+      "mca",
+      "masters in computer applications"
+    ],
+    "answer": "MCA: 2-year program (lateral entry also available). Specializations: Cloud Computing, DevOps, Full Stack. Fees: ₹88k/year."
+  },
+  {
+    "questions": [
+      "phd courses",
+      "doctorate",
+      "phd at aitrc"
+    ],
+    "answer": "PhD offered in Engineering, Management, Pharmacy, Law, and Sciences. Duration: 3-5 years. UGC-NET/JRF fellowships applicable. Entrance exam: AITRC-RET."
   },
   {
     "questions": [
       "diploma courses",
-      "diploma",
-      "polytechnic"
+      "polytechnic",
+      "diploma at aitrc"
     ],
-    "answer": "We offer 3-year diplomas in Computer Engineering, Mechanical, Electrical, and Civil. Lateral entry available after 10+2 (PCM)."
+    "answer": "3-year diplomas in Computer Engg, Mechanical, Electrical, Civil, and Automobile. Lateral entry after 10+2. Fees: ₹42k/year."
   },
   {
     "questions": [
       "admission process",
-      "how to get admission",
-      "admission details",
-      "apply for admission"
+      "how to apply",
+      "admission steps"
     ],
-    "answer": "Admission is based on merit or entrance exam (ABC-CET for B.Tech, ABC-MAT for MBA). You can apply online on our website. Steps: Register → Fill form → Upload docs → Pay fee → Confirmation."
+    "answer": "Step 1: Visit www.aitrc.edu.in/admissions. Step 2: Register with email & phone. Step 3: Fill application (₹1200 fee). Step 4: Upload 10th/12th marks. Step 5: Appear for AITRC-CET (for B.Tech) or merit-based for others. Step 6: Counseling & fee payment."
   },
   {
     "questions": [
-      "admission eligibility",
       "eligibility criteria",
-      "who can apply"
+      "who can apply",
+      "qualification required"
     ],
-    "answer": "For UG: 10+2 with minimum 50% (45% for SC/ST). For PG: Bachelor's degree with 55%. Specific subjects required for B.Tech (PCM) and B.Sc (related science)."
+    "answer": "UG: 10+2 with min 55% (PCM for B.Tech, PCB for B.Pharm). PG: Bachelor's with 55%. Lateral entry: Diploma or B.Sc with 60%. Relaxation for SC/ST/OBC as per govt norms."
   },
   {
     "questions": [
-      "entrance exam",
-      "abc cet",
+      "aitrc cet exam",
+      "entrance exam details",
       "college entrance test"
     ],
-    "answer": "ABC-CET is our own entrance exam for B.Tech admission. Conducted in May/June. Syllabus: Physics, Chemistry, Mathematics of 12th level. Application fee: ₹800."
+    "answer": "AITRC-CET is conducted in May and July. Subjects: Physics, Chemistry, Math (B.Tech) or English, Logical Reasoning (BBA/BCA). Duration: 2 hours. Result in 10 days."
+  },
+  {
+    "questions": [
+      "application fee",
+      "registration fee"
+    ],
+    "answer": "Application fee: ₹1200 for general, ₹800 for SC/ST/PWD. Pay online via card, UPI, net banking. Non-refundable."
   },
   {
     "questions": [
       "fee structure",
-      "tuition fees",
-      "course fees",
-      "how much fees"
+      "all course fees",
+      "tuition fees"
     ],
-    "answer": "Fees vary by course. B.Tech: ₹1.2 lakh/year, B.Com/BBA: ₹50k/year, B.Sc: ₹60k/year, MBA: ₹1.5 lakh/year. Hostel & mess extra (approx ₹80k/year). Scholarships available for meritorious and EWS students."
+    "answer": "Fee range: Diploma (₹42k/year), B.Com/BA (₹45k/year), BBA/BCA (₹58k-65k/year), B.Tech (₹1.35L/year), MBA (₹1.6L/year), Hostel (₹75k-95k/year). Full fee pdf on website."
   },
   {
     "questions": [
-      "scholarship",
+      "scholarships",
       "financial aid",
-      "fee concession"
+      "merit scholarship"
     ],
-    "answer": "ABC College offers merit scholarships (up to 100% fees), EWS scholarship, and sports quota concessions. Also, government scholarships (Post-Matric, National Scholarship Portal) are applicable."
+    "answer": "AITRC offers: 1) Merit scholarship: 100% fee waiver for >95% in 12th. 2) EWS scholarship (₹20k/year). 3) Sports quota (₹15k/year). 4) Sibling discount (10%). Also UP govt scholarships."
+  },
+  {
+    "questions": [
+      "education loan",
+      "loan facility"
+    ],
+    "answer": "MoU with SBI, HDFC Credila, Avanse, and Bank of Baroda. Loan assistance desk in Admin Block. Documents: admission letter, fee structure, co-borrower income proof."
   },
   {
     "questions": [
       "college timing",
-      "college time",
-      "timing",
-      "class timings"
+      "class timings",
+      "aitrc timings"
     ],
-    "answer": "College timing is 10:30 AM to 5:00 PM. Monday to Friday. Practical labs and library remain open till 6:30 PM."
+    "answer": "College timing: 9:30 AM to 5:00 PM (Mon-Fri). Labs & library open till 7 PM. Saturday: 9:30 AM to 2:00 PM. Sunday closed."
   },
   {
     "questions": [
       "placement record",
-      "placements",
-      "job placement",
-      "campus placement"
+      "placements at aitrc",
+      "campus placement",
+      "job placement"
     ],
-    "answer": "Average placement: 85%. Top recruiters: TCS, Infosys, Wipro, Amazon, Deloitte, Accenture. Highest package (2024): ₹28 LPA. Average package: ₹5.5 LPA."
+    "answer": "AITRC average placement: 88%. Highest package (2024): ₹32 LPA (Amazon). Average: ₹6.2 LPA. Top recruiters: Microsoft, Deloitte, Infosys, TCS, Accenture, Wipro, HCL, L&T, Cognizant."
   },
   {
     "questions": [
       "internship",
-      "internship opportunities"
+      "summer internship"
     ],
-    "answer": "Mandatory summer internship after 2nd year for UG. College helps with internships via placement cell. Stipend ranges ₹10k-₹30k/month."
+    "answer": "Mandatory 6-8 week internship after 4th semester. Stipend range: ₹15k-₹50k/month. Internship cell helps with companies like Tech Mahindra, Jaro Education, Byju's, etc."
   },
   {
     "questions": [
       "hostel facility",
-      "hostel",
-      "accommodation"
+      "hostel accommodation",
+      "aitrc hostel"
     ],
-    "answer": "Separate boys and girls hostels with AC/non-AC rooms. Mess, WiFi, 24/7 water, and security included. Fee: ₹80k-₹1.2L/year. Limited seats, early booking advised."
+    "answer": "Separate hostels for boys (4 blocks) and girls (2 blocks). AC/Non-AC rooms (2/3/4 sharing). Mess (veg/non-veg), WiFi, laundry, gym, 24/7 water & security. Fee: ₹75k-₹95k/year."
   },
   {
     "questions": [
       "library",
-      "library facility"
+      "library facility",
+      "central library"
     ],
-    "answer": "Central library with 50,000+ books, 100+ journals, digital access to IEEE, Springer, and DELNET. Open 9 AM to 7 PM."
+    "answer": "Central library: 85,000+ books, 200+ national/international journals, digital access to IEEE, ACM, Springer, J-Gate. E-library with 50+ computers. Open 8 AM to 9 PM."
   },
   {
     "questions": [
       "canteen",
-      "food facility"
+      "food court",
+      "mess"
     ],
-    "answer": "Multi-cuisine canteen with hygienic food, priced between ₹20-₹100. Also has a juice corner and coffee vending machine."
+    "answer": "3 canteens: North Indian, South Indian, and Fast Food corner. Also Amul parlor and CCD outlet. Meal price: ₹30-₹150. Hostel mess optional for day scholars."
   },
   {
     "questions": [
       "transport facility",
-      "bus facility",
-      "college bus"
+      "college bus",
+      "bus service"
     ],
-    "answer": "College buses available from major city points, railway station, and bus stand. Transport fee: ₹25k/year. Route list on website."
+    "answer": "AITRC bus service covers Noida, Greater Noida, Ghaziabad, Indirapuram, and Delhi (IP Extension, Mayur Vihar). 25 routes. Fee: ₹28k/year. GPS-enabled buses with lady attendant."
   },
   {
     "questions": [
-      "sports",
       "sports facility",
-      "gym"
+      "gym",
+      "sports ground"
     ],
-    "answer": "Cricket, football, basketball courts, indoor badminton, table tennis, chess, and a fully equipped gym. Annual sports meet in December."
+    "answer": "Cricket ground, football turf, basketball & volleyball courts, badminton indoor, table tennis, chess, carrom, and gym with trainer. Annual sports meet 'AITRC Champions' in November."
   },
   {
     "questions": [
       "faculty",
-      "teachers",
+      "teachers qualification",
       "professors"
     ],
-    "answer": "90% faculty are PhD holders with industry experience. Student-faculty ratio is 15:1. Regular guest lectures from IITs and IIMs."
+    "answer": "85% faculty are PhDs from IITs/NITs. Student-faculty ratio: 12:1. Industry guest faculty from Google, Microsoft, ICICI, etc."
   },
   {
     "questions": [
@@ -216,93 +315,502 @@
       "exam dates",
       "university exams"
     ],
-    "answer": "Internal exams: July & December. University exams: May & November. Practical exams follow theory exams. Admit cards available on student portal."
+    "answer": "Odd semester exams: Nov-Dec. Even semester exams: April-May. Practical exams follow theory. Internal exams: August & February. Admit cards on student portal."
   },
   {
     "questions": [
       "attendance policy",
-      "attendance requirement",
       "minimum attendance"
     ],
-    "answer": "Minimum 75% attendance mandatory to sit for university exams. 65-75% with medical certificate requires principal's permission."
+    "answer": "75% attendance mandatory. 65-75% needs medical certificate & parent meeting. Below 65%: detained from exams."
   },
   {
     "questions": [
+      "academic calendar",
       "holidays",
-      "college holidays",
-      "vacation"
+      "vacation dates"
     ],
-    "answer": "Summer break: May-June (45 days). Winter break: 15 days (Dec-Jan). National holidays and festival holidays (Diwali, Holi, Eid, Christmas). Academic calendar on website."
-  },
-  {
-    "questions": [
-      "contact number",
-      "college phone number",
-      "helpline"
-    ],
-    "answer": "Admission helpline: +91-9876543210, +91-1234567890. Office hours: 9:30 AM to 5:00 PM, Monday to Saturday."
-  },
-  {
-    "questions": [
-      "email id",
-      "college email",
-      "official email"
-    ],
-    "answer": "Admission queries: admission@abccollege.edu.in, General: info@abccollege.edu.in, Placement: placement@abccollege.edu.in."
-  },
-  {
-    "questions": [
-      "college address",
-      "where is abc college",
-      "location"
-    ],
-    "answer": "ABC College, Sector 62, Noida, Uttar Pradesh - 201301. Nearest metro: Noida Electronic City (5 mins walk). Landmark: Near Wave City Mall."
-  },
-  {
-    "questions": [
-      "website",
-      "official website"
-    ],
-    "answer": "Our official website is www.abccollege.edu.in. You can find application forms, syllabus, results, and notices there."
+    "answer": "Summer break: 15 May to 30 June. Winter break: 25 Dec to 5 Jan. Diwali break: 5 days. Holi: 2 days. Eid, Christmas, Republic Day, Independence Day off."
   },
   {
     "questions": [
       "anti ragging",
       "ragging policy"
     ],
-    "answer": "ABC College has zero tolerance for ragging. Anti-ragging committee and helpline: 1800-123-456. Strict action as per UGC norms."
+    "answer": "Strict anti-ragging policy as per UGC. Ragging = immediate expulsion + FIR. Helpline: 1800-888-1234. Anti-ragging committee meets every month."
   },
   {
     "questions": [
       "student clubs",
-      "clubs and societies"
+      "societies at aitrc"
     ],
-    "answer": "We have Coding Club, Debate Society, Cultural Committee, Photography Club, Entrepreneurship Cell, and NSS/NCC units."
+    "answer": "Clubs: Coding Ninjas, Robotics Club, Entrepreneurship Cell, TEDx AITRC, Dramatics, Music & Dance, Photography, Rotaract, NSS, NCC."
   },
   {
     "questions": [
       "annual fest",
-      "college fest",
-      "cultural fest"
+      "cultural fest",
+      "aitrc fest name"
     ],
-    "answer": "Our annual fest 'Abhikalp' is held in February. Includes celebrity nights, DJ, hackathon, business quiz, and sports competitions."
+    "answer": "Annual fest: 'AITRC Aagaz' in February. 3 days of celebrity night, DJ, hackathon, fashion show, business quiz, sports, and food stalls. Last year artist: Guru Randhawa."
   },
   {
     "questions": [
-      "loan facility",
-      "education loan"
+      "technical fest",
+      "tech fest"
     ],
-    "answer": "We have MoUs with SBI, PNB, and Bank of Baroda for education loans. Loan assistance desk in admin block."
+    "answer": "Tech fest: 'AITRC Vigyaan' in October. Events: Code-a-thon, Robo War, Paper Presentation, Project Expo, and Guest Lectures from IIT professors."
   },
   {
     "questions": [
-      "byebye",
-      "goodbye",
+      "result date",
+      "when result announced"
+    ],
+    "answer": "Odd semester results: January end. Even semester results: June mid. Check on www.aitrc.edu.in/results with roll number."
+  },
+  {
+    "questions": [
+      "backlog exam",
+      "supplementary exam",
+      "back paper"
+    ],
+    "answer": "Backlog/supplementary exams held in July and December. Fee per paper: ₹800. Registration through student portal."
+  },
+  {
+    "questions": [
+      "transfer certificate",
+      "tc",
+      "leaving certificate"
+    ],
+    "answer": "TC issued within 7 working days after NOC from library, hostel, accounts, and HOD. Apply in admin office. Fee: ₹500."
+  },
+  {
+    "questions": [
+      "fee refund policy",
+      "cancellation refund"
+    ],
+    "answer": "Before 15 days of session start: 90% refund. Before 7 days: 50% refund. After classes start: No refund except security deposit. UGC guidelines followed."
+  },
+  {
+    "questions": [
+      "wifi campus",
+      "internet facility"
+    ],
+    "answer": "Wi-Fi enabled campus with 200 Mbps leased line (Airtel + Jio). Free for students. Login with enrollment ID & OTP."
+  },
+  {
+    "questions": [
+      "medical facility",
+      "health center"
+    ],
+    "answer": "24/7 medical room with nurse & visiting doctor (9 AM-5 PM). Tied with Yatharth Hospital (3 km). Ambulance available for emergency."
+  },
+  {
+    "questions": [
+      "bank atm",
+      "atm facility"
+    ],
+    "answer": "SBI and HDFC ATMs inside campus. Bank extension counter (SBI) open 10 AM-2 PM for passbook, cheque deposit."
+  },
+  {
+    "questions": [
+      "auditorium",
+      "seminar hall"
+    ],
+    "answer": "2 AC auditoriums (500 & 200 seats) with projectors, sound system. Used for seminars, fests, placement drives. Available for booking via admin."
+  },
+  {
+    "questions": [
+      "girls hostel safety",
+      "hostel security"
+    ],
+    "answer": "Girls hostel: Lady warden, CCTV cameras, biometric entry, female security guards. No boys allowed. Visitors only in reception area with ID."
+  },
+  {
+    "questions": [
+      "part time jobs",
+      "earn while learn"
+    ],
+    "answer": "AITRC allows on-campus part time jobs: library assistant (₹3k/month), lab attendant, digital marketing intern. Also campus placements for third year students."
+  },
+  {
+    "questions": [
+      "study abroad",
+      "foreign exchange program"
+    ],
+    "answer": "MoU with University of Melbourne (Australia) and University of Texas (USA). Semester exchange program. Eligibility: 8+ CGPA & IELTS 6.5. Cost approx $5000/semester."
+  },
+  {
+    "questions": [
+      "alumni network",
+      "alumni association"
+    ],
+    "answer": "AITRC Alumni Association (AAA) has 15,000+ members. Annual meet in March. Alumni mentoring program and referral for jobs."
+  },
+  {
+    "questions": [
+      "research center",
+      "phd research"
+    ],
+    "answer": "Research centers: AI & Data Science Lab, VLSI Design Center, Renewable Energy Lab, Drug Discovery Lab. Funded by DST and AICTE."
+  },
+  {
+    "questions": [
+      "incubation center",
+      "startup support"
+    ],
+    "answer": "AITRC Innovation & Incubation Center (AIIC). Provides seed funding up to ₹5 lakhs, mentorship, coworking space. 12 startups incubated so far."
+  },
+  {
+    "questions": [
+      "grievance redressal",
+      "complaint system"
+    ],
+    "answer": "Online grievance portal on website. Also student Grievance Committee meets every Friday. Email: grievance@aitrc.edu.in. Resolution within 15 days."
+  },
+  {
+    "questions": [
+      "library timing",
+      "library hours"
+    ],
+    "answer": "Monday-Saturday: 8 AM to 9 PM. Sunday: 10 AM to 5 PM. Closed on national holidays. Issue/return: 9 AM to 6 PM."
+  },
+  {
+    "questions": [
+      "labs timing",
+      "computer lab timing"
+    ],
+    "answer": "Central computer lab open 8 AM to 8 PM. Department labs open 9 AM to 6 PM. Weekend limited access with prior permission."
+  },
+  {
+    "questions": [
+      "counseling cell",
+      "student counselor"
+    ],
+    "answer": "Student Counseling Cell for academic and personal issues. Free and confidential. Counselors available Mon-Fri 10 AM-4 PM. Appointment via email counselor@aitrc.edu.in"
+  },
+  {
+    "questions": [
+      "syllabus download",
+      "course syllabus"
+    ],
+    "answer": "Syllabus available on www.aitrc.edu.in/syllabus. Select course & semester. Also available on student portal (ERP). Updated yearly."
+  },
+  {
+    "questions": [
+      "how to reach aitrc",
+      "nearest metro",
+      "commute to college"
+    ],
+    "answer": "Nearest metro: Knowledge Park II Metro Station (Aqua Line) – 2 km. Then auto (₹20). Also bus route: 34, 45A, 123. From Noida City Centre: cab (₹150)."
+  },
+  {
+    "questions": [
+      "nearby pg",
+      "paying guest accommodation"
+    ],
+    "answer": "Nearby PGs: Sai PG (1 km, ₹7k-10k/month), Star Hostel (1.5 km, ₹6k-9k), VK Residence. College helpline can share list. Safety verified."
+  },
+  {
+    "questions": [
+      "dress code",
+      "uniform"
+    ],
+    "answer": "Formal dress required: White shirt + navy blue trousers for boys. Salwar kameez/navy blue blazer + white shirt for girls. ID card compulsory. Fridays: casual with college t-shirt."
+  },
+  {
+    "questions": [
+      "ragging cases",
+      "is ragging there"
+    ],
+    "answer": "Zero ragging at AITRC. No complaints in last 5 years. Surprise checks by anti-ragging squad. Students can anonymously report via app."
+  },
+  {
+    "questions": [
+      "fees payment mode",
+      "how to pay fees"
+    ],
+    "answer": "Online: Student portal (Net banking, credit/debit card, UPI). Offline: Bank draft in favor of 'AITRC, Greater Noida' or cash in accounts section (limit ₹25k)."
+  },
+  {
+    "questions": [
+      "late fee",
+      "fine for late submission"
+    ],
+    "answer": "Late fee ₹500 after due date. ₹1000 after 7 days. ₹2000 after 15 days + principal approval. No admission after 30 days."
+  },
+  {
+    "questions": [
+      "change branch",
+      "branch change policy"
+    ],
+    "answer": "Branch change allowed after 1st year if CGPA > 8.5 and seat available. Apply within 15 days of result. Fee: ₹5000."
+  },
+  {
+    "questions": [
+      "id card",
+      "college id"
+    ],
+    "answer": "ID card issued at admission (₹300). Mandatory to carry. Lost card: report immediately, duplicate ₹500 with police report."
+  },
+  {
+    "questions": [
+      "bus pass",
+      "student bus pass"
+    ],
+    "answer": "Student bus pass for DTC/UPSRTC available through college (₹1.5k/month). Apply in admin office with ID, photo, address proof."
+  },
+  {
+    "questions": [
+      "railway concession",
+      "train concession"
+    ],
+    "answer": "Railway concession form available in admin office for students going home during vacations. 50% concession in sleeper/2nd class. Requires bonafide certificate."
+  },
+  {
+    "questions": [
+      "bonafide certificate",
+      "student certificate"
+    ],
+    "answer": "Bonafide certificate issued within 1 day. Apply online on student portal or offline with ₹200 fee. Used for passport, railway, bank, etc."
+  },
+  {
+    "questions": [
+      "transcripts",
+      "academic transcripts"
+    ],
+    "answer": "Transcripts (semester-wise marksheets) available from examination branch. ₹500 per copy. 5 working days. Also digital transcripts for abroad."
+  },
+  {
+    "questions": [
+      "migration certificate",
+      "migration"
+    ],
+    "answer": "Migration certificate issued after final year result. ₹800 fee. Required for higher education in other universities. Processing: 7 days."
+  },
+  {
+    "questions": [
+      "character certificate",
+      "conduct certificate"
+    ],
+    "answer": "Character certificate issued by HOD + Dean Student Welfare. ₹300. Requires no dues from library, accounts, hostel. Takes 3 days."
+  },
+  {
+    "questions": [
+      "aitrc review",
+      "is aitrc good",
+      "college rating"
+    ],
+    "answer": "AITRC rated AAA by Careers360. Student reviews: 4.2/5 on Google. Pros: Good placement, faculty, infrastructure. Cons: Strict attendance. Ranked #35 among Pvt Engg colleges in North India."
+  },
+  {
+    "questions": [
+      "hostel food",
+      "mess menu"
+    ],
+    "answer": "Mess menu: Roti, rice, dal, sabzi (veg) + egg/chicken (non-veg) for dinner. Breakfast: poha, paratha, upma, bread-omelette. Monthly menu on hostel notice board."
+  },
+  {
+    "questions": [
+      "hostel rules",
+      "hostel regulations"
+    ],
+    "answer": "In-time: Boys 9 PM, Girls 8 PM. No outsiders allowed. No liquor, smoking, non-veg in rooms. Visitors allowed 4-6 PM. Monthly maintenance ₹500."
+  },
+  {
+    "questions": [
+      "hostel admission",
+      "how to get hostel"
+    ],
+    "answer": "Hostel admission during counseling. First-come-first-served. Advance payment ₹20k. Medical certificate, parent consent required. Separate form for AC hostel."
+  },
+  {
+    "questions": [
+      "aitrc logo",
+      "college logo"
+    ],
+    "answer": "AITRC logo features a glowing lamp, open book, and gear wheel symbolizing knowledge, tradition, and technology. Colors: blue, white, and gold."
+  },
+  {
+    "questions": [
+      "founding year",
+      "established year"
+    ],
+    "answer": "AITRC was founded in 2008 by Dr. S. P. Verma and the AITRC Trust."
+  },
+  {
+    "questions": [
+      "principal name",
+      "director name"
+    ],
+    "answer": "Current Director: Dr. Anjali Saxena (Ph.D, IIT Delhi). Principal (Engineering): Dr. Ramesh Kumar. Vice-Principal: Prof. Meera Nair."
+  },
+  {
+    "questions": [
+      "student strength",
+      "total students"
+    ],
+    "answer": "Total students: 6,200+ (UG: 4800, PG: 900, PhD: 500). International students: 120+ from Nepal, Bhutan, Bangladesh, African nations."
+  },
+  {
+    "questions": [
+      "campus size",
+      "area of college"
+    ],
+    "answer": "AITRC campus is 42 acres. Built-up area: 1.2 million sq ft. Includes academic blocks, hostels, sports complex, open amphitheater, and green belt."
+  },
+  {
+    "questions": [
+      "ranking",
+      "aitrc rank"
+    ],
+    "answer": "AITRC ranked: #38 among private engineering colleges (Outlook 2024), #22 among BCA colleges (India Today), #45 for MBA (Business World)."
+  },
+  {
+    "questions": [
+      "accreditation",
+      "approved by"
+    ],
+    "answer": "AITRC is approved by AICTE, PCI, BCI, UGC. NAAC A++ grade (3.65/4). NBA accredited for CSE, ECE, ME branches."
+  },
+  {
+    "questions": [
+      "international collaborations",
+      "foreign university tie ups"
+    ],
+    "answer": "MoUs with: University of Melbourne (Australia), UT Austin (USA), Nanyang Tech (Singapore), University of Leeds (UK). Student exchange, dual degree, faculty exchange."
+  ],
+  {
+    "questions": [
+      "online courses",
+      "swayam nptel"
+    ],
+    "answer": "AITRC is NPTEL Local Chapter. Students can earn extra credits via SWAYAM. College provides free access to Coursera for Campus (200+ courses)."
+  },
+  {
+    "questions": [
+      "coding culture",
+      "programming clubs"
+    ],
+    "answer": "Excellent coding culture. CodeChef campus chapter, GFG Student Chapter. Competitive programming sessions every Saturday. Many students with CodeChef 4* & Codeforces experts."
+  },
+  {
+    "questions": [
+      "hackathon",
+      "coding competition"
+    ],
+    "answer": "AITRC hosts 'CodeAITRC' national hackathon every March. Prize pool ₹5 lakhs. Winners get direct interview calls from Microsoft, Google partners."
+  },
+  {
+    "questions": [
+      "soft skills training",
+      "aptitude classes"
+    ],
+    "answer": "Soft skills, aptitude, and communication training from 2nd year. Free classes by TCS iON, Verzeo, and internal trainers. Placement preparation modules."
+  },
+  {
+    "questions": [
+      "language lab",
+      "english lab"
+    ],
+    "answer": "Digital language lab with 60 systems. TOEFL, IELTS, GRE preparation modules. Run by English department. Open 10 AM to 4 PM."
+  },
+  {
+    "questions": [
+      "aitrc app",
+      "mobile app"
+    ],
+    "answer": "AITRC Student App available on Play Store & App Store. Features: attendance, fees, assignments, results, notices, library, placement alerts."
+  },
+  {
+    "questions": [
+      "erp portal",
+      "student login"
+    ],
+    "answer": "ERP portal: erp.aitrc.edu.in. Student login: enrollment ID + DOB as password. Update profile, check attendance, download study material."
+  },
+  {
+    "questions": [
+      "notice board",
+      "college notices"
+    ],
+    "answer": "Digital notice board on website home page. Physical notice board near admin block. All important notices via SMS & app notification."
+  },
+  {
+    "questions": [
+      "guest lecture",
+      "seminar"
+    ],
+    "answer": "Guest lectures every Friday 3-5 PM. Past speakers: Dr. Vijay Bhatkar (Padma Shri), Rajiv Makhni (Tech journalist), CEOs of startups."
+  },
+  {
+    "questions": [
+      "industrial visit",
+      "iv"
+    ],
+    "answer": "Industrial visit once per semester for each branch. Past visits: Maruti Suzuki, Coca-Cola, ISRO (Bangalore), IIT Delhi labs. Cost included in fees."
+  },
+  {
+    "questions": [
+      "workshop",
+      "training programs"
+    ],
+    "answer": "Weekly workshops on Python, AWS, Digital Marketing, VLSI, Robotics, etc. Certificates issued. Many free, some paid with external partners."
+  },
+  {
+    "questions": [
+      "aitrc college code",
+      "college code for exam"
+    ],
+    "answer": "AITRC college code for university exams: 247. For JEE Main counseling: 621. For UPTAC: 142."
+  },
+  {
+    "questions": [
+      "gre waiver",
+      "foreign admission help"
+    ],
+    "answer": "AITRC has tie-ups for GRE/TOEFL waiver for some US universities. Study abroad cell provides SOP, LOR, visa guidance. Last year 45 students went abroad."
+  },
+  {
+    "questions": [
+      "entrepreneurship cell",
+      "e cell"
+    ],
+    "answer": "E-Cell AITRC conducts startup weekends, pitch competitions, mentorship from founders. Incubation center provides ₹2L seed grant for top idea."
+  },
+  {
+    "questions": [
+      "women empowerment",
+      "girls safety"
+    ],
+    "answer": "Internal Complaints Committee (ICC) for women. Women Development Cell. Self-defense workshops every semester. 24x7 women's helpline: +91-9997775668"
+  },
+  {
+    "questions": [
+      "disabled friendly",
+      "wheelchair access"
+    ],
+    "answer": "AITRC is specially-abled friendly: ramps, accessible washrooms, lifts in all blocks. Separate scholarship for PwD students. Counselor available."
+  },
+  {
+    "questions": [
       "thank you",
-      "thanks",
-      "bye",
-      "see you later"
+      "thanks bot",
+      "helpful",
+      "great"
     ],
-    "answer": "You're welcome! Have a great day. Visit our website or call helpline for more help. Goodbye!"
+    "answer": "You're welcome! I am glad I could help. For more details, visit www.aitrc.edu.in or call +91-8882223334. Have a great day!"
+  },
+  {
+    "questions": [
+      "bye",
+      "goodbye",
+      "see you",
+      "tata",
+      "exit",
+      "quit",
+      "logout"
+    ],
+    "answer": "Goodbye! Keep shining. For future queries, AITRC I Support is always here. Take care!"
   }
 ]
